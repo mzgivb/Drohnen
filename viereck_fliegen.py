@@ -7,7 +7,7 @@ Batteriezustand = tello.get_battery()
 
 print ("Der Akku ist zu:" , Batteriezustand , "% geladen.")
 
-tello.takeoff() # Tello geht auf die Höhe von 30 cm
+tello.takeoff() # Tello hebt ab
 
 def viereck_fliegen(kantenlaenge, radius): #Definition der Funktion viereck_fliegen
     for x in range(4):
