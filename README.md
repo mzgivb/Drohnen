@@ -10,7 +10,7 @@ Zur speziell Syntax gehören nachdem man eine Variable für die Drohen bestimmt 
 ```python
 tello = Tello() 
 tello.connect()
-tello.move_up()
+tello.takeoff()
 tello.move_forward(100)
 tello.rotate_clockwise(90)
 tello.land()
