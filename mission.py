@@ -15,7 +15,7 @@ drohne.set_video_direction(drohne.CAMERA_DOWNWARD) # die abwärtsgerichtete kame
 ID = drohne.get_mission_pad_id() # legt die ID Variable fest
 # Abfrage nach den Missionpad 
 if ID == 4:
-    print ("Ich habe das Mission Pad gefunden")
+    print (f"Ich habe das Mission Pad mit der {ID} gefunden")
 else:
     print(f"Aktuelle ID: {ID}")
 
