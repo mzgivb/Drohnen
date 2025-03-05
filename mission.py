@@ -17,7 +17,7 @@ ID = drohne.get_mission_pad_id() # legt die ID Variable fest
 if ID == 4:
     print (f"Ich habe das Mission Pad mit der {ID} gefunden")
 else:
-    print(f"Aktuelle ID: {ID}")
+    print(f"Aktuelle ID des erkannten Mission Pads lautet: {ID}")
 
 drohne.rotate_clockwise(180)
 drohne.move_forward(100)
