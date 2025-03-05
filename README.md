@@ -1,4 +1,4 @@
-# Drohnen
+# Tello EDU Drohnen
 
 In diesem Repository befinden sie einige Beispiele zum programmieren einer Tello Drohne mit Python.
 
